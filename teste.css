@@ -1,0 +1,50 @@
+/* Configuração Geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Parte 3 e 4: Organização de Layout */
+.container-principal {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.layout-flex {
+    display: flex; /* Coloca imagem e lista lado a lado */
+    align-items: center; /* Alinha verticalmente ao centro */
+    gap: 30px; /* Espaço entre a imagem e a lista */
+    margin-top: 20px;
+}
+
+/* Parte 4: Ajuste da Imagem */
+.imagem-ajustada {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Parte 2: Estilização das Listas */
+.lista-estilizada {
+    color: #333;
+    line-height: 1.8; /* Espaçamento entre linhas */
+    margin-bottom: 20px;
+    padding-left: 25px;
+}
+
+.lista-estilizada li {
+    font-weight: bold;
+    color: #2c3e50;
+    transition: 0.3s; /* Para o efeito hover do desafio extra */
+}
+
+/* Desafio Extra: Efeito Hover */
+.lista-estilizada li:hover {
+    color: #e67e22;
+    transform: translateX(5px); /* Move levemente para a direita */
+}
